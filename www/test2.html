@@ -255,6 +255,12 @@
           var view3=myApp.addView('#view-3');
           var view4=myApp.addView('#view-4');
         </script>
+
+        <script>
+        document.addEventListener("deviceready", function () {
+          navigator.splashscreen.hide();
+        }, false);
+        </script>
         <!-- Path to your app js-->
         <!-- <script type="text/javascript" src="path/to/my-app.js"></script> -->
       </body>
